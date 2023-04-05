@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+a{
+    color: white;
+}
+.header{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    >img{
+        height: 70%;
+    }
+    >div{
+        width: 100%;
+        margin-left: 4vmax;
+        >a{
+            margin: 1vmax;
+            font-size: 1.3rem;
+            font-weight: 200;
+        }
+    }
+    >svg{
+        color: white;
+        font-size: 2rem;
+        cursor: pointer;
+        &:hover{
+            color: rgb(151, 192, 228);
+        }
+    }
+}
